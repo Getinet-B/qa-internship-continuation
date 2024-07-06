@@ -1,15 +1,17 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
-<<<<<<< HEAD
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.wait import WebDriverWait
 from allure_behave.utils import scenario_name
-
-
 from app.application import Application
+
 from support.logger import logger
+
+#def browser_init(context):
+
+
 
 
 #  Run Behave tests with Allure results
@@ -22,19 +24,12 @@ def browser_init(context, scenario_name):
     :param context:
     :param scenario_name:
     :return:
-=======
-
-
-def browser_init(context):
-    """
-    :param context: Behave context
->>>>>>> 70e6cc297222574a3ee71eec96c966e0ab75acff
     """
     driver_path = ChromeDriverManager().install()
     service = Service(driver_path)
     context.driver = webdriver.Chrome(service=service)
 
-<<<<<<< HEAD
+    context.driver.maximize_window()
     # driver_path = GeckoDriverManager().install()
     # service = Service(driver_path)
     # context.driver = webdriver.Firefox(service=service)
@@ -119,17 +114,6 @@ def browser_init(context):
 def before_scenario(context, scenario):
     print('\nStarted scenario: ', scenario.name)
     browser_init(context, scenario_name)
-=======
-    context.driver.maximize_window()
-
-    context.driver.maximize_window()
-    context.driver.implicitly_wait(4)
-
-
-def before_scenario(context, scenario):
-    print('\nStarted scenario: ', scenario.name)
-    browser_init(context)
->>>>>>> 70e6cc297222574a3ee71eec96c966e0ab75acff
 
 
 def before_step(context, step):
@@ -142,11 +126,5 @@ def after_step(context, step):
 
 
 def after_scenario(context, feature):
-<<<<<<< HEAD
     #logger.info(f'Finished scenario: {scenario_name}')
     context.driver.quit()
-
-=======
-    context.driver.delete_all_cookies()
-    context.driver.quit()
->>>>>>> 70e6cc297222574a3ee71eec96c966e0ab75acff
