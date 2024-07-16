@@ -1,0 +1,90 @@
+2024-06-28 23:07:25,469 - support.logger - INFO - Started scenario: The user can enter the information into the input fields on the registration page
+2024-06-28 23:07:27,729 - support.logger - INFO - Started step: <given "Open registration page">
+2024-06-28 23:07:27,732 - support.logger - WARNING - Step failed: <given "Open registration page">
+2024-06-28 23:07:27,861 - support.logger - INFO - Finished scenario: <function scenario_name at 0x0000015821A20A40>
+2024-06-28 23:10:35,473 - support.logger - INFO - Started scenario: The user can enter the information into the input fields on the registration page
+2024-06-28 23:10:37,695 - support.logger - INFO - Started step: <given "Open registration page">
+2024-06-28 23:10:37,696 - support.logger - WARNING - Step failed: <given "Open registration page">
+2024-06-28 23:10:37,843 - support.logger - INFO - Finished scenario: <function scenario_name at 0x0000027763130A40>
+2024-06-28 23:14:02,379 - support.logger - INFO - Started scenario: The user can enter the information into the input fields on the registration page
+2024-06-28 23:14:04,599 - support.logger - INFO - Started step: <given "Open registration page">
+2024-06-28 23:14:08,656 - support.logger - WARNING - Step failed: <given "Open registration page">
+2024-06-28 23:14:08,786 - support.logger - INFO - Finished scenario: <function scenario_name at 0x000001F83BBB0A40>
+2024-06-28 23:47:56,713 - support.logger - INFO - Started scenario: The user can enter the information into the input fields on the registration page
+2024-06-28 23:47:59,001 - support.logger - INFO - Started step: <given "Open registration page">
+2024-06-28 23:48:03,062 - support.logger - WARNING - Step failed: <given "Open registration page">
+2024-06-28 23:48:03,167 - support.logger - INFO - Finished scenario: <function scenario_name at 0x00000218B5020A40>
+2024-06-28 23:53:02,679 - support.logger - INFO - Started scenario: The user can enter the information into the input fields on the registration page
+2024-06-28 23:53:04,842 - support.logger - INFO - Started step: <given "Open registration page">
+2024-06-28 23:53:08,881 - support.logger - WARNING - Step failed: <given "Open registration page">
+2024-06-28 23:53:08,995 - support.logger - INFO - Finished scenario: <function scenario_name at 0x0000028AB6070A40>
+2024-06-28 23:55:17,076 - support.logger - INFO - Started scenario: The user can enter the information into the input fields on the registration page
+2024-06-28 23:55:19,516 - support.logger - INFO - Started step: <given "Open registration page">
+2024-06-28 23:55:23,554 - support.logger - WARNING - Step failed: <given "Open registration page">
+2024-06-28 23:55:23,651 - support.logger - INFO - Finished scenario: <function scenario_name at 0x000001A620B30A40>
+2024-06-29 00:03:43,222 - support.logger - INFO - Started scenario: The user can enter the information into the input fields on the registration page
+2024-06-29 00:03:46,425 - support.logger - INFO - Started step: <given "Open registration page">
+2024-06-29 00:03:50,462 - support.logger - WARNING - Step failed: <given "Open registration page">
+2024-06-29 00:03:50,590 - support.logger - INFO - Finished scenario: <function scenario_name at 0x0000023020E60A40>
+2024-06-29 00:04:20,205 - support.logger - INFO - Started scenario: The user can enter the information into the input fields on the registration page
+2024-06-29 00:04:22,382 - support.logger - INFO - Started step: <given "Open registration page">
+2024-06-29 00:04:26,396 - support.logger - WARNING - Step failed: <given "Open registration page">
+2024-06-29 00:04:26,511 - support.logger - INFO - Finished scenario: <function scenario_name at 0x000001BDD3D60A40>
+2024-06-30 19:47:31,536 - support.logger - INFO - Started scenario: The user can enter the information into the input fields on the registration page
+2024-06-30 19:47:35,509 - support.logger - INFO - Started step: <given "Open registration page">
+2024-06-30 19:47:39,629 - support.logger - WARNING - Step failed: <given "Open registration page">
+2024-06-30 19:47:39,746 - support.logger - INFO - Finished scenario: <function scenario_name at 0x0000022F85800A40>
+2024-06-30 19:49:36,244 - support.logger - INFO - Started scenario: The user can enter the information into the input fields on the registration page
+2024-06-30 19:49:38,579 - support.logger - INFO - Started step: <given "Open registration page">
+2024-06-30 19:49:42,616 - support.logger - WARNING - Step failed: <given "Open registration page">
+2024-06-30 19:49:42,811 - support.logger - INFO - Finished scenario: <function scenario_name at 0x000001EF47480A40>
+2024-06-30 20:03:56,102 - support.logger - INFO - Started scenario: The user can enter the information into the input fields on the registration page
+2024-06-30 20:03:58,458 - support.logger - INFO - Started step: <given "Open registration page">
+2024-06-30 20:04:17,156 - support.logger - WARNING - Step failed: <given "Open registration page">
+2024-06-30 20:04:17,298 - support.logger - INFO - Finished scenario: <function scenario_name at 0x000001A72F970A40>
+2024-06-30 20:04:50,990 - support.logger - INFO - Started scenario: The user can enter the information into the input fields on the registration page
+2024-06-30 20:04:53,296 - support.logger - INFO - Started step: <given "Open registration page">
+2024-06-30 20:05:10,694 - support.logger - WARNING - Step failed: <given "Open registration page">
+2024-06-30 20:05:10,814 - support.logger - INFO - Finished scenario: <function scenario_name at 0x0000022469570A40>
+2024-06-30 20:57:19,661 - support.logger - INFO - Started scenario: The user can enter the information into the input fields on the registration page
+2024-06-30 20:57:21,979 - support.logger - INFO - Started step: <given "Open registration page">
+2024-06-30 20:57:38,833 - support.logger - WARNING - Step failed: <given "Open registration page">
+2024-06-30 20:57:38,986 - support.logger - INFO - Finished scenario: <function scenario_name at 0x000001BEF91C0A40>
+2024-06-30 20:58:24,514 - support.logger - INFO - Started scenario: The user can enter the information into the input fields on the registration page
+2024-06-30 20:58:26,755 - support.logger - INFO - Started step: <given "Open registration page">
+2024-06-30 20:58:29,684 - support.logger - INFO - Step passed: Open registration page
+2024-06-30 20:58:29,685 - support.logger - INFO - Started step: <then "Click on "Sign in" link">
+2024-06-30 20:58:29,686 - support.logger - WARNING - Step failed: <then "Click on "Sign in" link">
+2024-06-30 20:58:29,806 - support.logger - INFO - Finished scenario: <function scenario_name at 0x000002A39D8D0A40>
+2024-06-30 20:59:29,279 - support.logger - INFO - Started scenario: The user can enter the information into the input fields on the registration page
+2024-06-30 20:59:31,485 - support.logger - INFO - Started step: <given "Open registration page">
+2024-06-30 20:59:34,832 - support.logger - INFO - Step passed: Open registration page
+2024-06-30 20:59:34,833 - support.logger - INFO - Started step: <then "Click on "Sign in" link">
+2024-06-30 20:59:34,835 - support.logger - WARNING - Step failed: <then "Click on "Sign in" link">
+2024-06-30 20:59:34,957 - support.logger - INFO - Finished scenario: <function scenario_name at 0x0000029829A90A40>
+2024-06-30 21:01:16,226 - support.logger - INFO - Started scenario: The user can enter the information into the input fields on the registration page
+2024-06-30 21:01:18,441 - support.logger - INFO - Started step: <given "Open registration page">
+2024-06-30 21:01:21,860 - support.logger - INFO - Step passed: Open registration page
+2024-06-30 21:01:21,862 - support.logger - INFO - Started step: <then "Click on "Sign in" link">
+2024-06-30 21:01:21,866 - support.logger - WARNING - Step failed: <then "Click on "Sign in" link">
+2024-06-30 21:01:21,993 - support.logger - INFO - Finished scenario: <function scenario_name at 0x0000019385310A40>
+2024-06-30 21:21:18,172 - support.logger - INFO - Started scenario: The user can enter the information into the input fields on the registration page
+2024-06-30 21:21:20,356 - support.logger - INFO - Started step: <given "Open registration page">
+2024-06-30 21:21:23,981 - support.logger - INFO - Step passed: Open registration page
+2024-06-30 21:21:23,983 - support.logger - INFO - Started step: <then "Click on "Sign in" link">
+2024-06-30 21:21:24,836 - support.logger - INFO - Step passed: Click on "Sign in" link
+2024-06-30 21:21:24,837 - support.logger - INFO - Started step: <when "Enter Information in the Input fields">
+2024-06-30 21:21:31,191 - support.logger - INFO - Step passed: Enter Information in the Input fields
+2024-06-30 21:21:31,193 - support.logger - INFO - Started step: <then "Verify the right information is present">
+2024-06-30 21:21:35,288 - support.logger - WARNING - Step failed: <then "Verify the right information is present">
+2024-06-30 21:21:35,561 - support.logger - INFO - Finished scenario: <function scenario_name at 0x000001A1D9220A40>
+2024-06-30 21:25:38,020 - support.logger - INFO - Started scenario: The user can enter the information into the input fields on the registration page
+2024-06-30 21:25:40,159 - support.logger - INFO - Started step: <given "Open registration page">
+2024-06-30 21:25:43,635 - support.logger - INFO - Step passed: Open registration page
+2024-06-30 21:25:43,636 - support.logger - INFO - Started step: <then "Click on "Sign in" link">
+2024-06-30 21:25:44,539 - support.logger - INFO - Step passed: Click on "Sign in" link
+2024-06-30 21:25:44,541 - support.logger - INFO - Started step: <when "Enter Information in the Input fields">
+2024-06-30 21:25:50,942 - support.logger - INFO - Step passed: Enter Information in the Input fields
+2024-06-30 21:25:50,943 - support.logger - INFO - Started step: <then "Verify the right information is present">
+2024-06-30 21:25:50,998 - support.logger - INFO - Step passed: Verify the right information is present
+2024-06-30 21:25:50,999 - support.logger - INFO - Finished scenario: <function scenario_name at 0x0000018F600C0A40>
