@@ -29,6 +29,11 @@ class BasePage:
         self.logger.info(f'Entering text "{text}" into element by {locator}')
         self.find_element(*locator).send_keys(text)
 
+    def type(self, text, *locator):
+        element = self.find_element(*locator)
+        element.clear()
+        element.send_keys(text)
+
     def wait_until_clickable_click(self, *locator):
         self.logger.info(f'Waiting for element to be clickable by {locator}')
         self.wait.until(
@@ -39,14 +44,14 @@ class BasePage:
     def wait_until_visible(self, *locator):
         self.logger.info(f'Waiting for element to be visible by {locator}')
         self.wait.until(
-            EC.visibility_of_element_located(locator),
+            EC.visibility_of_element_located(*locator),
             f'Element not visible by {locator}'
         )
 
     def wait_until_disappear(self, *locator):
         self.logger.info(f'Waiting for element to disappear by {locator}')
         self.wait.until(
-            EC.invisibility_of_element_located(locator),
+            EC.invisibility_of_element_located(*locator),
              f'Element still visible by {locator}'
         )
 

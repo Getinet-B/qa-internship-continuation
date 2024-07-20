@@ -4,6 +4,7 @@ from pages.home_page import HomePage
 from pages.login_page import LoginPage
 from pages.regis_page import RegisPage
 from pages.registration_page import RegistrationPage
+from pages.settings_page import SettingsPage
 
 
 class Application:
@@ -15,3 +16,4 @@ class Application:
         self.login_page = LoginPage(driver)
         self.regis_page = RegisPage(driver)
         self.registration_page = RegistrationPage(driver)
+        self.settings_page = SettingsPage(driver)
