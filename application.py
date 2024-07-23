@@ -1,5 +1,6 @@
 from pages.base_page import BasePage
 from pages.connect_the_company_page import ConnectCompanyPage
+from pages.change_language_page import ChangeLanguagePage
 from pages.home_page import HomePage
 from pages.login_page import LoginPage
 from pages.regis_page import RegisPage
@@ -12,6 +13,7 @@ class Application:
         self.driver = driver
         self.base_page = BasePage(driver)
         self.connect_the_company_page = ConnectCompanyPage(driver)
+        self.change_language_page = ChangeLanguagePage(driver)
         self.home_page = HomePage(driver)
         self.login_page = LoginPage(driver)
         self.regis_page = RegisPage(driver)
