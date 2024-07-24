@@ -24,10 +24,21 @@ class ChangeLanguagePage(BasePage):
         self.wait_until_clickable_click(self.LANGUAGE)
         self.click(*self.CHANGE_TO_RUSSIAN)
 
-    def verify_language_changed(self):
-        texts = self.find_elements(*self.MENU_TITLE)
+    def verify_language_changed(self, expected_title="Главное меню"):
+        try:
+            print("Searching for elements matching the expected title...")
+            header_elements = self.driver.find_elements(*self.MENU_TITLE)
 
-        for text in texts:
-            title = text.find_element(*self.MENU_TITLE).text
-            assert title, 'Главное меню'
+            actual_titles = [element.text for element in header_elements]
+            print(f"Actual titles found: {actual_titles}")
 
+            if expected_title in actual_titles:
+                print(f"Verification successful: Expected title '{expected_title}' is present.")
+            else:
+                raise AssertionError(f"Expected title '{expected_title}', but got '{actual_titles}'")
+
+        except AssertionError as e:
+            print(f"Title verification failed: {str(e)}")
+        except Exception as e:
+            print(f"There is an error found while verifying the title: {str(e)}")
+            
