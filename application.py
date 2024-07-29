@@ -1,4 +1,5 @@
 from pages.base_page import BasePage
+from pages.add_project_page import AddProjectPage
 from pages.connect_the_company_page import ConnectCompanyPage
 from pages.change_language_page import ChangeLanguagePage
 from pages.home_page import HomePage
@@ -12,6 +13,7 @@ class Application:
     def __init__(self, driver):
         self.driver = driver
         self.base_page = BasePage(driver)
+        self.add_project_page = AddProjectPage(driver)
         self.connect_the_company_page = ConnectCompanyPage(driver)
         self.change_language_page = ChangeLanguagePage(driver)
         self.home_page = HomePage(driver)
