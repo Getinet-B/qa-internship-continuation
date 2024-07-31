@@ -1,16 +1,17 @@
 from behave import given, when, then
 from time import sleep
-
-
-@given('Open main page')
-def open_main(context):
-    context.app.home_page.open_main()
-
-
-@when('Log in to the page')
-def log_in_to_the_page(context):
-    context.app.login_page.login('kievpetr@tinyios.com', 'Abc1234')
-    sleep(6)
+#
+#
+# @given('Open main page')
+# def open_main(context):
+#     context.app.home_page.open_main()
+#
+#
+# @when('Log in to the page')
+# def log_in_to_the_page(context):
+#     context.app.login_page.login('kievpetr@tinyios.com', 'Abc1234')
+#     sleep(6)
+#
 
 
 @when('Click on Main Menu')
