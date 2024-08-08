@@ -1,9 +1,10 @@
 from pages.base_page import BasePage
 from pages.add_project_page import AddProjectPage
 from pages.connect_the_company_page import ConnectCompanyPage
-from pages.change_lang_page import ChangeLanguagePage
+from pages.change_lang_page import ChangeLangPage
 from pages.home_page import HomePage
 from pages.login_page import LoginPage
+from pages.open_community_page import OpenCommunityPage
 from pages.regis_page import RegisPage
 from pages.registration_page import RegistrationPage
 from pages.settings_page import SettingsPage
@@ -15,9 +16,11 @@ class Application:
         self.base_page = BasePage(driver)
         self.add_project_page = AddProjectPage(driver)
         self.connect_the_company_page = ConnectCompanyPage(driver)
-        self.change_language_page = ChangeLanguagePage(driver)
+        self.change_lang_page = ChangeLangPage(driver)
         self.home_page = HomePage(driver)
         self.login_page = LoginPage(driver)
+        self.open_community_page = OpenCommunityPage(driver)
         self.regis_page = RegisPage(driver)
         self.registration_page = RegistrationPage(driver)
         self.settings_page = SettingsPage(driver)
+

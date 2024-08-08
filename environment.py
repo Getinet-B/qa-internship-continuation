@@ -7,16 +7,15 @@ from selenium.webdriver.support.wait import WebDriverWait
 from allure_behave.utils import scenario_name
 from app.application import Application
 
+
 from support.logger import logger
+
 
 #def browser_init(context):
 
 
-
-
 #  Run Behave tests with Allure results
 # behave -f allure_behave.formatter:AllureFormatter -o test_results/ features/tests/target_app_ui_tests.feature
-
 
 def browser_init(context, scenario_name):
     """
@@ -25,11 +24,12 @@ def browser_init(context, scenario_name):
     :param scenario_name:
     :return:
     """
-    driver_path = ChromeDriverManager().install()
+    #driver_path = ChromeDriverManager().install()
+    driver_path = "C:\\Users\\getin\\OneDrive\\Desktop\\qa-internship-continuation\\chromedriver.exe"
     service = Service(driver_path)
     context.driver = webdriver.Chrome(service=service)
 
-    context.driver.maximize_window()
+    # context.driver.maximize_window()
     # driver_path = GeckoDriverManager().install()
     # service = Service(driver_path)
     # context.driver = webdriver.Firefox(service=service)
@@ -95,25 +95,9 @@ def browser_init(context, scenario_name):
     context.app = Application(context.driver)
 
 
-# def before_scenario(context, scenario):
-#     logger.info(f'Started scenario: {scenario.name}')
-#     browser_init(context, scenario.name)
-#
-#
-# def before_step(context, step):
-#     logger.info(f'Started step: {step}')
-#
-#
-# def after_step(context, step):
-#     if step.status == 'failed':
-#         logger.warning(f'Step failed: {step}')
-#         context.app.base_page.save_screenshot(step)
-#     else:
-#         logger.info(f'Step passed: {step.name}')
-
 def before_scenario(context, scenario):
     print('\nStarted scenario: ', scenario.name)
-    browser_init(context, scenario_name)
+    browser_init(context, scenario.name)
 
 
 def before_step(context, step):
@@ -126,5 +110,4 @@ def after_step(context, step):
 
 
 def after_scenario(context, feature):
-    #logger.info(f'Finished scenario: {scenario_name}')
     context.driver.quit()
