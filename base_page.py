@@ -10,7 +10,7 @@ class BasePage:
         self.logger = logging.getLogger(__name__)
 
     def open(self, url):
-        self.logger.info(f"Opening URL: {url}")
+        #self.logger.info(f"Opening URL: {url}")
         self.driver.get(url)
 
     def find_element(self, *locator):

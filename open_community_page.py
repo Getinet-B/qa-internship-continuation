@@ -39,7 +39,10 @@ class OpenCommunityPage(BasePage):
 
     def cs_button_available(self):
         logger.info("Checking if 'Contact support' button is available and clickable")
-        self.wait.until(EC.presence_of_element_located(self.CONTACT_SUPPORT_BTN))
-        self.wait.until(EC.element_to_be_clickable(self.CONTACT_SUPPORT_BTN))
+        contact_support_button = WebDriverWait(self.driver, 10).until(
+            EC.element_to_be_clickable(self.CONTACT_SUPPORT_BTN)
+        )
+        assert contact_support_button.is_displayed(), "contact_support button is not available"
+        assert contact_support_button.is_enabled(), "contact_support button is not clickable"
         logger.info("Clicked on 'Contact support' button")
 
