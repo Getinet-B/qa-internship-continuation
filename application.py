@@ -6,6 +6,7 @@ from pages.home_page import HomePage
 from pages.login_page import LoginPage
 from pages.open_community_page import OpenCommunityPage
 from pages.open_contact_us_page import OpenContactUsPage
+from pages.user_guide_page import OpenUserGuidePage
 from pages.regis_page import RegisPage
 from pages.registration_page import RegistrationPage
 from pages.settings_page import SettingsPage
@@ -22,6 +23,7 @@ class Application:
         self.login_page = LoginPage(driver)
         self.open_community_page = OpenCommunityPage(driver)
         self.open_contact_us_page = OpenContactUsPage(driver)
+        self.user_guide_page = OpenUserGuidePage(driver)
         self.regis_page = RegisPage(driver)
         self.registration_page = RegistrationPage(driver)
         self.settings_page = SettingsPage(driver)
