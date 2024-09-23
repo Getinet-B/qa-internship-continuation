@@ -12,7 +12,7 @@ from pages.regis_page import RegisPage
 from pages.registration_page import RegistrationPage
 from pages.settings_page import SettingsPage
 from pages.subscription_and_payments_page import OpenSubscriptionPaymentPage
-
+from pages.whatsapp_and_telegram_communities_page import AccessWhatsappTelegramCommunitiesPage
 
 class Application:
     def __init__(self, driver):
@@ -31,4 +31,5 @@ class Application:
         self.registration_page = RegistrationPage(driver)
         self.settings_page = SettingsPage(driver)
         self.subscription_and_payments_page = OpenSubscriptionPaymentPage(driver)
+        self.whatsapp_and_telegram_communities_page = AccessWhatsappTelegramCommunitiesPage(driver)
 
