@@ -24,8 +24,8 @@ def browser_init(context, scenario_name):
     :param scenario_name:
     :return:
     """
-    #driver_path = ChromeDriverManager().install()
-    driver_path = "C:\\Users\\getin\\OneDrive\\Desktop\\qa-internship-continuation\\chromedriver.exe"
+    driver_path = ChromeDriverManager().install()
+    #driver_path = "C:\\Users\\getin\\OneDrive\\Desktop\\qa-internship-continuation\\chromedriver.exe"
     service = Service(driver_path)
     context.driver = webdriver.Chrome(service=service)
 

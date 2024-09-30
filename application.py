@@ -10,9 +10,11 @@ from pages.open_contact_us_page import OpenContactUsPage
 from pages.user_guide_page import OpenUserGuidePage
 from pages.regis_page import RegisPage
 from pages.registration_page import RegistrationPage
+from pages.right_number_ui_elements_page import RightNumberUiElementsPage
 from pages.settings_page import SettingsPage
 from pages.subscription_and_payments_page import OpenSubscriptionPaymentPage
 from pages.whatsapp_and_telegram_communities_page import AccessWhatsappTelegramCommunitiesPage
+
 
 class Application:
     def __init__(self, driver):
@@ -29,6 +31,7 @@ class Application:
         self.user_guide_page = OpenUserGuidePage(driver)
         self.regis_page = RegisPage(driver)
         self.registration_page = RegistrationPage(driver)
+        self.right_number_ui_elements_page = RightNumberUiElementsPage(driver)
         self.settings_page = SettingsPage(driver)
         self.subscription_and_payments_page = OpenSubscriptionPaymentPage(driver)
         self.whatsapp_and_telegram_communities_page = AccessWhatsappTelegramCommunitiesPage(driver)
