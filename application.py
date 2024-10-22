@@ -11,7 +11,8 @@ from pages.user_guide_page import OpenUserGuidePage
 from pages.regis_page import RegisPage
 from pages.registration_page import RegistrationPage
 from pages.right_number_ui_elements_page import RightNumberUiElementsPage
-from pages.sd_want_to_sell_option_page import FilterSecondaryDeals
+#from pages.sd_want_to_sell_option_page import FilterSecondaryDeals
+from pages.sd_want_to_buy_option_page import FilterWantToBuyOption
 from pages.secondary_deals_pagination_page import SecondaryDealsPaginationPage
 from pages.settings_page import SettingsPage
 from pages.subscription_and_payments_page import OpenSubscriptionPaymentPage
@@ -34,7 +35,8 @@ class Application:
         self.regis_page = RegisPage(driver)
         self.registration_page = RegistrationPage(driver)
         self.right_number_ui_elements_page = RightNumberUiElementsPage(driver)
-        self.sd_want_to_sell_option_page = FilterSecondaryDeals(driver)
+        #self.sd_want_to_sell_option_page = FilterSecondaryDeals(driver)
+        self.sd_want_to_buy_option_page = FilterWantToBuyOption(driver)
         self.secondary_deals_pagination_page = SecondaryDealsPaginationPage(driver)
         self.settings_page = SettingsPage(driver)
         self.subscription_and_payments_page = OpenSubscriptionPaymentPage(driver)
