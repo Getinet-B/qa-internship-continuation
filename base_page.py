@@ -24,6 +24,9 @@ class BasePage:
     def click(self, *locator):
         self.logger.info(f'Clicking on element by {locator}')
         self.find_element(*locator).click()
+        by, value = locator  # Unpack the tuple
+        element = self.wait.until(EC.element_to_be_clickable((by, value)))
+        element.click()
 
     def input_text(self, text, *locator):
         self.logger.info(f'Entering text "{text}" into element by {locator}')
