@@ -5,6 +5,7 @@ from pages.change_lang_page import ChangeLangPage
 from pages.home_page import HomePage
 from pages.login_page import LoginPage
 from pages.change_password_page import OpenChangePasswordPage
+from pages.off_plan_pagination_page import OffPlanPage
 from pages.open_community_page import OpenCommunityPage
 from pages.open_contact_us_page import OpenContactUsPage
 from pages.user_guide_page import OpenUserGuidePage
@@ -30,6 +31,7 @@ class Application:
         self.home_page = HomePage(driver)
         self.login_page = LoginPage(driver)
         self.change_password_page = OpenChangePasswordPage(driver)
+        self.off_plan_pagination_page = OffPlanPage(driver)
         self.open_community_page = OpenCommunityPage(driver)
         self.open_contact_us_page = OpenContactUsPage(driver)
         self.user_guide_page = OpenUserGuidePage(driver)
